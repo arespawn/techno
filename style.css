@@ -4,22 +4,30 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
     height: 100vh;
 }
 
 #stream-container {
     margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    max-width: 600px;
 }
 
 audio {
     width: 100%;
-    max-width: 600px;
+    outline: none;
+    controls-list: nodownload; /* Disables downloading */
 }
 
+/* Additional styling for the chatbox */
 #chat-container {
     width: 100%;
     max-width: 600px;
-    /* Additional styles for the chatbox */
+    /* Add your styles here */
 }
