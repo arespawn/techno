@@ -1,33 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     background-color: #f0f0f0;
     margin: 0;
-    padding: 0;
+    padding: 20px;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 100vh;
 }
 
 #stream-container {
-    margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
-    overflow: hidden;
-    width: 100%;
-    max-width: 600px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
 }
 
 audio {
     width: 100%;
-    outline: none;
-    controls-list: nodownload; /* Disables downloading */
-}
-
-/* Additional styling for the chatbox */
-#chat-container {
-    width: 100%;
-    max-width: 600px;
-    /* Add your styles here */
+    max-width: 300px;
 }
